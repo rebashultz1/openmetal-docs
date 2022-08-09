@@ -295,5 +295,5 @@ This floating IP will be used later to access an instance over SSH.
 ## **Next Steps**
 
 The [next
-guide](using-creating-images-cli) goes
+guide](../using-creating-images-cli/) goes
 over images in OpenStack, which are bootable operating systems.

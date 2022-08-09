@@ -8,8 +8,8 @@ Installation and configuration of Virtual Private Networking as a Service
 
 ## Prerequisites
 
-- [Kolla Ansible](../operators-manual/day-4/kolla-ansible/prepare-kolla-ansible)
-- [OpenstackCLI](../operators-manual/day-1/command-line/openstackclient)
+- [Kolla Ansible](../../operators-manual/day-4/kolla-ansible/prepare-kolla-ansible)
+- [OpenstackCLI](../../operators-manual/day-1/command-line/openstackclient)
 - `python-neutronclient` cli plugin for advanced networking.
 
 ## Preparation
@@ -76,9 +76,9 @@ Install
 
 ```sh
 $ yum --disablerepo=* --enablerepo=baseos,appstream,powertools downgrade libreswan-3.32-6.el8.x86_64.rpm
-CentOS Linux 8 - AppStream                                                                                                84 kB/s | 3.9 kB     00:00    
-CentOS Linux 8 - BaseOS                                                                                                   20 MB/s | 4.6 MB     00:00    
-CentOS Linux 8 - PowerTools                                                                                               30 MB/s | 4.6 MB     00:00    
+CentOS Linux 8 - AppStream                                                                                                84 kB/s | 3.9 kB     00:00
+CentOS Linux 8 - BaseOS                                                                                                   20 MB/s | 4.6 MB     00:00
+CentOS Linux 8 - PowerTools                                                                                               30 MB/s | 4.6 MB     00:00
 Dependencies resolved.
 =========================================================================================================================================================
  Package                             Architecture                     Version                               Repository                              Size
@@ -98,18 +98,18 @@ Transaction check succeeded.
 Running transaction test
 Transaction test succeeded.
 Running transaction
-  Preparing        :                                                                                                                                 1/1 
-  Running scriptlet: libreswan-3.32-6.el8.x86_64                                                                                                     1/1 
-  Downgrading      : libreswan-3.32-6.el8.x86_64                                                                                                     1/2 
-  Running scriptlet: libreswan-3.32-6.el8.x86_64                                                                                                     1/2 
-  Running scriptlet: libreswan-4.3-3.el8.x86_64                                                                                                      2/2 
-  Cleanup          : libreswan-4.3-3.el8.x86_64                                                                                                      2/2 
-  Running scriptlet: libreswan-4.3-3.el8.x86_64                                                                                                      2/2 
-  Verifying        : libreswan-3.32-6.el8.x86_64                                                                                                     1/2 
-  Verifying        : libreswan-4.3-3.el8.x86_64                                                                                                      2/2 
+  Preparing        :                                                                                                                                 1/1
+  Running scriptlet: libreswan-3.32-6.el8.x86_64                                                                                                     1/1
+  Downgrading      : libreswan-3.32-6.el8.x86_64                                                                                                     1/2
+  Running scriptlet: libreswan-3.32-6.el8.x86_64                                                                                                     1/2
+  Running scriptlet: libreswan-4.3-3.el8.x86_64                                                                                                      2/2
+  Cleanup          : libreswan-4.3-3.el8.x86_64                                                                                                      2/2
+  Running scriptlet: libreswan-4.3-3.el8.x86_64                                                                                                      2/2
+  Verifying        : libreswan-3.32-6.el8.x86_64                                                                                                     1/2
+  Verifying        : libreswan-4.3-3.el8.x86_64                                                                                                      2/2
 
 Downgraded:
-  libreswan-3.32-6.el8.x86_64                                                                                                                            
+  libreswan-3.32-6.el8.x86_64
 
 Complete!
 ```
@@ -132,9 +132,9 @@ subcommand. For example:
 $ kolla-ansible -i /etc/fm-deploy/kolla-ansible-inventory reconfigure
 --- OUTPUT TRUNCATED ---
 PLAY RECAP **********************************************************************************************************************************************
-exhilarated-firefly        : ok=290  changed=22   unreachable=0    failed=0    skipped=187  rescued=0    ignored=0   
-gifted-wildcat             : ok=454  changed=39   unreachable=0    failed=0    skipped=213  rescued=0    ignored=0   
-localhost                  : ok=4    changed=2    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+exhilarated-firefly        : ok=290  changed=22   unreachable=0    failed=0    skipped=187  rescued=0    ignored=0
+gifted-wildcat             : ok=454  changed=39   unreachable=0    failed=0    skipped=213  rescued=0    ignored=0
+localhost                  : ok=4    changed=2    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0
 upbeat-peacock             : ok=290  changed=22   unreachable=0    failed=0    skipped=187  rescued=0    ignored=0
 ```
 

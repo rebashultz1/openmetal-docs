@@ -15,7 +15,7 @@ OpenStackClient.
 ## **Get started**
 
 OpenStackClient will need to be installed before it can be used. See
-this [guide](create-an-instance#create-an-instance) for installation
+this [guide](./create-an-instance.md/#create-an-instance) for installation
 instructions.
 
 For a full list and explanation of the available options use `openstack
@@ -42,7 +42,7 @@ For example:
 
     output formatters:
       output formatter options
-    
+
       -f {csv,json,table,value,yaml}, --format {csv,json,table,value,yaml}
                             the output format, defaults to table
       -c COLUMN, --column COLUMN
@@ -124,7 +124,7 @@ to set:
 
 ### **Create an instance**
 
-See the Day 1 [guide](create-an-instance) for information on how to
+See the Day 1 [guide](./create-an-instance.md/) for information on how to
 create an instance.
 
 ### **Stop and start an instance**
@@ -308,7 +308,7 @@ Download CirrOS and upload into glance:
 
     # grab the latest CirrOS image
     $ wget http://download.cirros-cloud.net/0.5.1/cirros-0.5.1-x86_64-disk.img
-    
+
     # upload the image into glance
     $ openstack image create cirros --container-format bare --disk-format
     qcow2 --file PATH_TO_CIRROS_IMAGE
@@ -383,7 +383,7 @@ Open ports 80 and 443 on all IP ranges for ingress TCP traffic:
 
     $ openstack security group rule create --remote-ip 0.0.0.0/0 \
     --dst-port 80:80 --ingress --protocol tcp SECURITY_GROUP
-    
+
     $ openstack security group rule create --remote-ip 0.0.0.0/0 \
     --dst-port 443:443 --ingress --protocol tcp SECURITY_GROUP
 

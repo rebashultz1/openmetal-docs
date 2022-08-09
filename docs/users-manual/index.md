@@ -28,4 +28,4 @@ into two categories.
 2. [Create a Network](create-a-network)
 3. [Manage OpenStack Images](using-creating-images-cli)
 4. [Create an Instance](create-an-instance)
-5. [Managing Backups in OpenStack](managing-backups-in-openstack)
+5. [Managing Backups in OpenStack](managing-backups-in-openstack/)

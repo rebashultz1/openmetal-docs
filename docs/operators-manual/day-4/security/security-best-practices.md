@@ -50,7 +50,7 @@ user.
 
 For information about how to create a user and project, see [Create an
 OpenStack User and Project in
-Horizon](../../day-1/horizon/create-user-project).
+Horizon](../../day-1/horizon/create-user-project.md/).
 
 #### Users
 
@@ -112,7 +112,7 @@ necessary to maintain security updates and patches. We recommend
 routinely updating and managing these images within your existing
 OpenStack cluster. For further information on how to upload images visit
 [Manage and Upload Images in
-Horizon](../../day-1/horizon/images)
+Horizon](../../../day-1/horizon/images)
 
 ### Update Kolla Ansible Images
 
@@ -121,7 +121,7 @@ containers. Over time, updates occur, causing existing images to be out
 of date. As part of regular cloud maintenance, these images can be
 updated, using Kolla Ansible. To learn more, see [How to Obtain Latest
 OpenStack Images using Kolla
-Ansible](../../day-2/maintenance#how-to-obtain-latest-openstack-images-using-kolla-ansible).
+Ansible](../../../day-2/maintenance#how-to-obtain-latest-openstack-images-using-kolla-ansible).
 
 ### Update Control-Plane Nodes
 
@@ -130,7 +130,7 @@ be performed as part of routine maintenance. These updates are best
 handled by the operating system's package manager, which for Private
 Clouds running CentOS 8, is `dnf`. For more information on how to update
 control plane nodes visit [OpenStack Hardware Node
-Maintenance](../../day-2/maintenance).
+Maintenance](../../../day-2/maintenance/).
 
 ## Enabling TLS
 
@@ -142,7 +142,7 @@ credentials for your Horizon Dashboard.
 
 For more information on how to enable TLS within Horizon, visit [How to
 Enable TLS for OpenStack using Kolla
-Ansible](../kolla-ansible/enable-tls).
+Ansible](../../kolla-ansible/enable-tls/).
 
 ## Security Groups
 

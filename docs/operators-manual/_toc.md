@@ -7,7 +7,7 @@
 2. [Getting Started with OpenStack
     Horizon](operators_manual/day-1/horizon/getting-started-with-horizon)
 3. [Create an OpenStack User and Project in
-    Horizon](operators_manual/day-1/horizon/create-user-project)
+    Horizon](operators_manual/day-1/horizon/create-user-project.md/)
 4. [Manage and Upload Images in OpenStack
     Horizon](operators_manual/day-1/horizon/images)
 5. [How to Create an Instance in OpenStack

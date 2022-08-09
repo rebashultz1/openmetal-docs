@@ -27,7 +27,7 @@ from a single location, visually.
 
 For more information about enabling an ELK stack in your cloud, see [How
 to Enable Elasticsearch and Kibana using Kolla
-Ansible](../../day-4/kolla-ansible/enable-elk).
+Ansible](../../../day-4/kolla-ansible/enable-elk).
 
 ## Kolla Ansible Log Locations
 

@@ -56,7 +56,7 @@ your cloud, and how to get support from our staff.
 
 1. [Introduction to OpenMetal and your Private Cloud Core](day-1/intro-to-openmetal-private-cloud.md/)
 2. [Getting Started with OpenStack Horizon](day-1/horizon/getting-started-with-horizon)
-3. [Create an OpenStack User and Project in Horizon](day-1/horizon/create-user-project)
+3. [Create an OpenStack User and Project in Horizon](day-1/horizon/create-user-project.md/)
 4. [Manage and Upload Images in OpenStack Horizon](day-1/horizon/images)
 5. [How to Create an Instance in OpenStack Horizon](day-1/horizon/create-first-instance.md/)
 6. [How to Install and Use OpenStackClient](day-1/command-line/openstackclient)

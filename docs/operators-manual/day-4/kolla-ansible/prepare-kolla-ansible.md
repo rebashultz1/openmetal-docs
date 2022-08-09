@@ -45,19 +45,19 @@ this guide.:
 
     # Create a folder for your Kolla Ansible environment
     $ mkdir /opt/kolla-ansible
-    
+
     # Navigate to folder
     $ cd /opt/kolla-ansible
-    
+
     # Initialize a Python virtual environment
     $ virtualenv .venv
-    
+
     # Activate the virtual environment
     $ source .venv/bin/activate
-    
+
     # Update pip
     pip install --upgrade pip
-    
+
     # Install Kolla Ansible and Ansible
     $ pip install git+https://github.com/inmotionhosting/kolla-ansible@stable/victoria
     $ pip install 'ansible>=2.9,<2.10,!=2.9.10'
@@ -206,6 +206,6 @@ configure using Kolla Ansible, such enabling TLS for Horizon or enabling
 Central Logging with an ELK stack:
 
 - [Enable TLS for
-    Horizon](enable-tls)
+    Horizon](./enable-tls/)
 - [Enable Central Logging using
-    ELK](enable-elk)
+    ELK](./enable-elk/)

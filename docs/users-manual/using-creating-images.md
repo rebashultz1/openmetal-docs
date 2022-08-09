@@ -76,4 +76,4 @@ Click the **?** icon for assistance with specifics.
 ## Next Steps
 
 With this guide complete, move on to the next guide, which explains [how
-to create an Instance](create-an-instance) in Horizon.
+to create an Instance](./create-an-instance.md/) in Horizon.
