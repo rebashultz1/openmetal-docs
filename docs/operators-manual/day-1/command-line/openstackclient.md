@@ -59,7 +59,7 @@ user **nick** and that user's primary project, **Development**.
 Next, use SSH to log in to the instance created previously. If you
 created your instance by following the guide, [How to Create an Instance
 in OpenStack
-Horizon](../horizon/create-first-instance), then
+Horizon](../horizon/create-first-instance.md/), then
 this instance can only be accessed from one of your control plane nodes.
 
 -----
@@ -76,7 +76,7 @@ For example:
 
     # Create the following directory
     $ mkdir -p ~/.config/openstack
-    
+
     # Copy clouds.yaml into this file
     $ vi ~/.config/openstack/clouds.yaml
 
@@ -146,7 +146,7 @@ related to authentication.
 
 For example:
 
-    $ source ~/Development-openrc.sh 
+    $ source ~/Development-openrc.sh
     Please enter your OpenStack Password for project Development as user dev-user:
 
 **Step 7**: List servers associated with your project

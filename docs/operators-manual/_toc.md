@@ -3,7 +3,7 @@
 ## Day 1
 
 1. [Introduction to OpenMetal and your Private Cloud
-    Core](operators_manual/day-1/intro-to-openmetal-private-cloud)
+    Core](operators_manual/day-1/intro-to-openmetal-private-cloud.md/)
 2. [Getting Started with OpenStack
     Horizon](operators_manual/day-1/horizon/getting-started-with-horizon)
 3. [Create an OpenStack User and Project in
@@ -11,7 +11,7 @@
 4. [Manage and Upload Images in OpenStack
     Horizon](operators_manual/day-1/horizon/images)
 5. [How to Create an Instance in OpenStack
-    Horizon](operators_manual/day-1/horizon/create-first-instance)
+    Horizon](operators_manual/day-1/horizon/create-first-instance/)
 6. [How to Install and Use
     OpenStackClient](operators_manual/day-1/command-line/openstackclient)
 
@@ -22,7 +22,7 @@
 2. [Introduction to
     Ceph](operators_manual/day-2/introduction-to-ceph)
 3. [How to Check Ceph's Status and Disk
-    Usage](operators_manual/day-2/check-ceph-status-disk-usage)
+    Usage](operators_manual/day-2/check-ceph-status-disk-usage.md/)
 4. [Maintaining OpenStack Software
     Updates](operators_manual/day-2/maintenance)
 5. [View OpenStack Resource

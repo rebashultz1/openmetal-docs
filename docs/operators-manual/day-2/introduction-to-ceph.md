@@ -45,7 +45,7 @@ release](https://docs.ceph.com/en/latest/releases/octopus/) is used.
 
 ## View Disk Usage of the Ceph Cluster
 
-For more, see the guide on [How to Check Ceph's Status and Disk Usage](check-ceph-status-disk-usage).
+For more, see the guide on [How to Check Ceph's Status and Disk Usage](check-ceph-status-disk-usage.md/).
 
 ## Default Configuration for the Ceph Cluster
 

@@ -27,7 +27,7 @@ For example:
 
     $ ssh root@173.231.254.165
     Activate the web console with: systemctl enable --now cockpit.socket
-    
+
     Last login: Mon Nov  8 16:53:30 2021 from 173.231.218.25
 
 **Step 2** -- **Create the key pair**
@@ -76,7 +76,7 @@ To have access to another machine, this public key needs to exist within
 the file `~/.ssh/authorized_keys`. For the sake of this series of
 guides, this public key is injected into the instance created within
 [How to Create an Instance in OpenStack
-Horizon](../horizon/create-first-instance)
+Horizon](../horizon/create-first-instance.md/)
 
 ## Conclusion
 

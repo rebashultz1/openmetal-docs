@@ -54,13 +54,13 @@ process of getting started with a Private Cloud Core OpenStack Cloud. We
 introduce you to OpenMetal Central, how to view the assets that comprise
 your cloud, and how to get support from our staff.
 
-1. [Introduction to OpenMetal and your Private Cloud Core](day-1/intro-to-openmetal-private-cloud)
+1. [Introduction to OpenMetal and your Private Cloud Core](day-1/intro-to-openmetal-private-cloud.md/)
 2. [Getting Started with OpenStack Horizon](day-1/horizon/getting-started-with-horizon)
 3. [Create an OpenStack User and Project in Horizon](day-1/horizon/create-user-project)
 4. [Manage and Upload Images in OpenStack Horizon](day-1/horizon/images)
-5. [How to Create an Instance in OpenStack Horizon](day-1/horizon/create-first-instance)
+5. [How to Create an Instance in OpenStack Horizon](day-1/horizon/create-first-instance.md/)
 6. [How to Install and Use OpenStackClient](day-1/command-line/openstackclient)
-7. [Create SSH Key Pair for an OpenStack Control Plane Node](day-1/command-line/create-ssh-key)
+7. [Create SSH Key Pair for an OpenStack Control Plane Node](day-1/command-line/create-ssh-key.md/)
 
 ### Day 2
 
@@ -70,7 +70,7 @@ maintenance tasks for your cluster's hardware nodes.
 
 1. [How Private Clouds are Deployed](day-2/private-cloud-deployment-overview)
 2. [Introduction to Ceph](day-2/introduction-to-ceph)
-3. [How to Check Ceph's Status and Disk Usage](day-2/check-ceph-status-disk-usage)
+3. [How to Check Ceph's Status and Disk Usage](day-2/check-ceph-status-disk-usage.md/)
 4. [Maintaining OpenStack Software Updates](day-2/maintenance)
 5. [How to Live Migrate Instances](day-2/live-migrate-instances)
 

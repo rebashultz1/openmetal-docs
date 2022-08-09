@@ -211,7 +211,7 @@ right.
 To follow this example, obtain the IP address of the first hardware node
 of your cloud. You can find this using [OpenMetal
 Central](https://central.openmetal.io/) under your cloud's [Assets
-Page](../intro-to-openmetal-private-cloud#how-to-view-your-hardware-assets).
+Page](../intro-to-openmetal-private-cloud.md/#how-to-view-your-hardware-assets).
 To be consistent, this guide assumes you are working with the first
 hardware node's IP address and the remaining instruction is created with
 that understanding.
@@ -249,7 +249,7 @@ create an SSH key pair in one of the hardware nodes. The public portion
 of that key pair is associated with the instance created later in this
 guide. To learn how to create this key pair, see the supplementary
 guide: [Create SSH Key Pair for an OpenStack Control Plane
-Node](../command-line/create-ssh-key).
+Node](../command-line/create-ssh-key.md/).
 
 #### Operating System Image
 
@@ -352,7 +352,7 @@ In this section, you specify an SSH public key to inject into the
 instance. You can upload your key at this stage using this form using
 the **Import Key Pair** button. For this demonstration, we use **Import
 Key Pair** to import the existing SSH public key [created
-previously](../command-line/create-ssh-key) for
+previously](../command-line/create-ssh-key.md/) for
 one of the control plane nodes.
 
 ![image](images/instance-import-key-pair.png)

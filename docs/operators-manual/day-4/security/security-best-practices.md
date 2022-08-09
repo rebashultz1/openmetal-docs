@@ -156,7 +156,7 @@ that can connect to these specific ports.
 
 For more information on how to create and manage security groups, see
 the title heading [Security Groups](../../day-1/horizon/create-first-instance.md#security-groups)
-in the [How to Create an Instance in OpenStack Horizon](../../day-1/horizon/create-first-instance)
+in the [How to Create an Instance in OpenStack Horizon](../../day-1/horizon/create-first-instance.md/)
 guide.
 
 ## SSH Authentication
