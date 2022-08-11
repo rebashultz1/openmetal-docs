@@ -1,5 +1,6 @@
 ---
 sidebar_position: 3
+slug: /operators-manual/troubleshooting-a-private-clouds-ceph-cluster
 ---
 # Troubleshooting a Private Cloud's Ceph Cluster
 
@@ -30,21 +31,21 @@ For example:
         health: HEALTH_WARN
                 clock skew detected on mon.focused-capybara, mon.lovely-ladybug
                 2 daemons have recently crashed
-    
+
       services:
         mon: 3 daemons, quorum relaxed-flamingo,focused-capybara,lovely-ladybug (age 5d)
         mgr: relaxed-flamingo(active, since 5d), standbys: focused-capybara, lovely-ladybug
         osd: 4 osds: 4 up (since 5d), 4 in (since 13d)
         rgw: 3 daemons active (focused-capybara.rgw0, lovely-ladybug.rgw0, relaxed-flamingo.rgw0)
-    
+
       task status:
-    
+
       data:
         pools:   13 pools, 337 pgs
         objects: 110.16k objects, 388 GiB
         usage:   1.1 TiB used, 11 TiB / 12 TiB avail
         pgs:     337 active+clean
-    
+
       io:
         client:   381 KiB/s rd, 1.2 MiB/s wr, 444 op/s rd, 214 op/s wr
 

@@ -78,7 +78,7 @@ control plane nodes. With this configuration, your cloud could suffer
 losing all but one Ceph node and still retain all of the cluster's data.
 For more about how your Ceph cluster was configure, see the heading
 **Default Configuration for the Ceph Cluster** in the
-[Introduction to Ceph](../day-2/introduction-to-ceph) guide.
+[Introduction to Ceph](../../day-2/introduction-to-ceph/) guide.
 
 ## Store Data Outside of the Cloud
 

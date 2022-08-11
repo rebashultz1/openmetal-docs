@@ -12,7 +12,7 @@ of a Private Cloud's OpenStack services.
 
 Before proceeding with this guide, a Kolla Ansible environment needs to
 be prepared. For information about preparing a Kolla Ansible
-environment, see [How to Prepare and Use Kolla Ansible](../day-4/kolla-ansible/prepare-kolla-ansible).
+environment, see [How to Prepare and Use Kolla Ansible](../../day-4/kolla-ansible/prepare-kolla-ansible).
 Once the environment is prepared, come back to this guide to learn how to
 create database backups of OpenStack services.
 
@@ -59,16 +59,16 @@ Truncated output of the above command:
 
     # kolla-ansible -i /etc/fm-deploy/kolla-ansible-inventory mariadb_backup
     Backup MariaDB databases : ansible-playbook -i /etc/fm-deploy/kolla-ansible-inventory -e @/etc/kolla/globals.yml  -e @/etc/kolla/passwords.yml -e CONFIG_DIR=/etc/kolla  -e kolla_action=backup -e mariadb_backup_type=full /opt/kolla-ansible/.venv/share/kolla-ansible/ansible/mariadb_backup.yml
-    
+
     [...previous output truncated...]
-    
+
     TASK [mariadb : Taking full database backup via Mariabackup] **************************************************************************************************
     skipping: [focused-capybara]
     skipping: [lovely-ladybug]
     [WARNING]: The value False (type bool) in a string field was converted to 'False' (type string). If this does not look like what you expect, quote the entire
     value to ensure it does not change.
     changed: [relaxed-flamingo]
-    
+
     PLAY RECAP ****************************************************************************************************************************************************
     focused-capybara           : ok=2    changed=0    unreachable=0    failed=0    skipped=1    rescued=0    ignored=0
     lovely-ladybug             : ok=2    changed=0    unreachable=0    failed=0    skipped=1    rescued=0    ignored=0
@@ -103,19 +103,19 @@ Truncated output of the above command:
 
     # kolla-ansible -i /etc/fm-deploy/kolla-ansible-inventory mariadb_backup --incremental
     Backup MariaDB databases : ansible-playbook -i /etc/fm-deploy/kolla-ansible-inventory -e @/etc/kolla/globals.yml  -e @/etc/kolla/passwords.yml -e CONFIG_DIR=/etc/kolla  -e kolla_action=backup -e mariadb_backup_type=incremental /opt/kolla-ansible/.venv/share/kolla-ansible/ansible/mariadb_backup.yml
-    
+
     [...previous output truncated...]
-    
+
     TASK [mariadb : include_tasks] ****************************************************************************************************************************************************************
     included: /opt/kolla-ansible/.venv/share/kolla-ansible/ansible/roles/mariadb/tasks/backup.yml for relaxed-flamingo, focused-capybara, lovely-ladybug
-    
+
     TASK [mariadb : Taking incremental database backup via Mariabackup] ***************************************************************************************************************************
     skipping: [focused-capybara]
     skipping: [lovely-ladybug]
     [WARNING]: The value False (type bool) in a string field was converted to 'False' (type string). If this does not look like what you expect, quote the entire value to ensure it does not
     change.
     changed: [relaxed-flamingo]
-    
+
     PLAY RECAP ************************************************************************************************************************************************************************************
     focused-capybara           : ok=2    changed=0    unreachable=0    failed=0    skipped=1    rescued=0    ignored=0
     lovely-ladybug             : ok=2    changed=0    unreachable=0    failed=0    skipped=1    rescued=0    ignored=0

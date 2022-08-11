@@ -54,7 +54,7 @@ process of getting started with a Private Cloud Core OpenStack Cloud. We
 introduce you to OpenMetal Central, how to view the assets that comprise
 your cloud, and how to get support from our staff.
 
-1. [Introduction to OpenMetal and your Private Cloud Core](day-1/intro-to-openmetal-private-cloud.md/)
+1. [Introduction to OpenMetal and your Private Cloud Core](/operators-manual/introduction-to-openmetal-central-and-your-private-cloud-core/)
 2. [Getting Started with OpenStack Horizon](day-1/horizon/getting-started-with-horizon)
 3. [Create an OpenStack User and Project in Horizon](day-1/horizon/create-user-project.md/)
 4. [Manage and Upload Images in OpenStack Horizon](day-1/horizon/images)
@@ -106,7 +106,7 @@ HashiCorp's Terraform application.
 6. [OpenStack Watcher Demonstration](day-4/watcher/watcher-demo)
 7. [Troubleshooting RabbitMQ](day-4/troubleshooting/rabbitmq)
 8. [How to Redeploy RabbitMQ using Kolla Ansible](day-4/troubleshooting/redeploy-rabbitmq)
-9. [Troubleshooting Ceph](day-4/troubleshooting/ceph)
+9. [Troubleshooting Ceph](/operators-manual/troubleshooting-a-private-clouds-ceph-cluster)
 10. [Guidelines for Searching through Logs](day-4/troubleshooting/log-filtering)
 11. [OpenStack Automation through Heat](day-4/automation/heat)
 12. [Automate Infrastructure using Terraform](day-4/automation/terraform)

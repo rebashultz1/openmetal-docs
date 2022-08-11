@@ -1,5 +1,6 @@
 ---
 sidebar_position: 1
+slug: /operators-manual/introduction-to-openmetal-central-and-your-private-cloud-core
 ---
 # Introduction to OpenMetal Central and Your Private Cloud Core
 

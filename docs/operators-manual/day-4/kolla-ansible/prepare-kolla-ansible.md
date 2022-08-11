@@ -180,13 +180,13 @@ changes to your Private Cloud.
 **Caution\!** -- Kolla Ansible's configuration is set through the file
 `/etc/kolla/globals.yml` where some variables should not be changed. See
 the section titled [Before Making
-Changes](prepare-kolla-ansible#before-making-changes)
+Changes](../prepare-kolla-ansible/#before-making-changes)
 at the top of this guide for more information.
 
 An example configuration change made at this step is to enable TLS for
 Horizon. Enabling TLS falls outside the scope of this guide. For
 instruction on how to do so, see [How to Enable TLS for
-OpenStack](enable-tls).
+OpenStack](enable-tls.md/).
 
 For complete documentation regarding available Kolla Ansible commands,
 see [Operating
@@ -206,6 +206,6 @@ configure using Kolla Ansible, such enabling TLS for Horizon or enabling
 Central Logging with an ELK stack:
 
 - [Enable TLS for
-    Horizon](./enable-tls/)
+    Horizon](./enable-tls.md/)
 - [Enable Central Logging using
-    ELK](./enable-elk/)
+    ELK](./enable-elk.md/)

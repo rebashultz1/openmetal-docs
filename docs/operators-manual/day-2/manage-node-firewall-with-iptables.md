@@ -39,7 +39,7 @@ If the `firewall_driver` is defined as `openvswitch` proceed to
 ### Reconfigure Firewall Driver with Kolla Ansible
 
 If the default Hybrid driver is in use you will need to update the
-[Kolla Ansible](../day-4/kolla-ansible/prepare-kolla-ansible)
+[Kolla Ansible](../../day-4/kolla-ansible/prepare-kolla-ansible/)
 configuration at `/etc/kolla/config/neutron/openvswitch_agent.ini`.
 
 If the `openvswitch_agent.ini` file does not exist, create it with the
@@ -67,16 +67,16 @@ neutron,openvswitch`:
 
 ``` sourceCode shell
 (.kolla-admin) [root@exhilarated-firefly kolla-ansible]# kolla-ansible -i /etc/fm-deploy/kolla-ansible-inventory reconfigure --tags neutron,openvswitch
-Reconfigure OpenStack service : ansible-playbook -i /etc/fm-deploy/kolla-ansible-inventory -e @/etc/kolla/globals.yml  -e @/etc/kolla/passwords.yml -e CONFIG_DIR=/etc/kolla  --tags neutron,openvswitch -e kolla_action=reconfigure -e kolla_serial=0 /opt/kolla-ansible/.kolla-admin/share/kolla-ansible/ansible/site.yml 
+Reconfigure OpenStack service : ansible-playbook -i /etc/fm-deploy/kolla-ansible-inventory -e @/etc/kolla/globals.yml  -e @/etc/kolla/passwords.yml -e CONFIG_DIR=/etc/kolla  --tags neutron,openvswitch -e kolla_action=reconfigure -e kolla_serial=0 /opt/kolla-ansible/.kolla-admin/share/kolla-ansible/ansible/site.yml
 [WARNING]: Invalid characters were found in group names but not replaced, use -vvvv to see details
 [WARNING]: Could not match supplied host pattern, ignoring: enable_nova_True
 
 --- OUTPUT TRUNCATED ---
 
 PLAY RECAP *********************************************************************************************************************************************************************************************************
-exhilarated-firefly        : ok=33   changed=5    unreachable=0    failed=0    skipped=18   rescued=0    ignored=0   
-gifted-wildcat             : ok=43   changed=6    unreachable=0    failed=0    skipped=19   rescued=0    ignored=0   
-localhost                  : ok=4    changed=2    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+exhilarated-firefly        : ok=33   changed=5    unreachable=0    failed=0    skipped=18   rescued=0    ignored=0
+gifted-wildcat             : ok=43   changed=6    unreachable=0    failed=0    skipped=19   rescued=0    ignored=0
+localhost                  : ok=4    changed=2    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0
 upbeat-peacock             : ok=33   changed=5    unreachable=0    failed=0    skipped=18   rescued=0    ignored=0
 ```
 
@@ -105,7 +105,7 @@ Proceed to [installation](#install-and-configure-firewall).
 yum install iptables-services ipset ipset-service -y
 -- OUTPUT TRUNCATED ---
 Installed:
-  ipset-7.1-1.el8.x86_64         ipset-libs-7.1-1.el8.x86_64           ipset-service-7.1-1.el8.noarch           iptables-services-1.8.4-17.el8_4.1.x86_64                     
+  ipset-7.1-1.el8.x86_64         ipset-libs-7.1-1.el8.x86_64           ipset-service-7.1-1.el8.noarch           iptables-services-1.8.4-17.el8_4.1.x86_64
 
 Complete!
 ```
@@ -175,20 +175,20 @@ bond0.8
     #
     # To reload: systemctl restart ipset
     ##
-    
+
     create whitelist hash:net family inet hashsize 1024 maxelem 65536
     create blacklist hash:net family inet hashsize 1024 maxelem 65536
     create multicast hash:net family inet hashsize 1024 maxelem 65536
-    
+
     ## Multicast/Broadcast IPs required for VRRP, DHCP, other protocols
     add multicast 224.0.0.0/4
     add multicast 255.255.255.255
-    
+
     ## Whitelisted IPs
-    
+
     # OMI VPN IP (support)
     add whitelist 173.231.218.25
-    
+
     # Add your additional IPs here...
     #add whitelist W.X.Y.Z
     ```

@@ -211,7 +211,7 @@ right.
 To follow this example, obtain the IP address of the first hardware node
 of your cloud. You can find this using [OpenMetal
 Central](https://central.openmetal.io/) under your cloud's [Assets
-Page](../intro-to-openmetal-private-cloud.md/#how-to-view-your-hardware-assets).
+Page](/operators-manual/introduction-to-openmetal-central-and-your-private-cloud-core/#how-to-view-your-hardware-assets).
 To be consistent, this guide assumes you are working with the first
 hardware node's IP address and the remaining instruction is created with
 that understanding.
@@ -256,7 +256,7 @@ Node](../command-line/create-ssh-key.md/).
 Several operating system images are available with which to create
 instances. To view available options, navigate to **Project -\> Compute
 -\> Images**. To upload your own images, see [How to Upload Operating
-System Images using Horizon](images).
+System Images using Horizon](../images/).
 
 ### Create your First Instance
 
