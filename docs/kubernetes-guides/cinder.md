@@ -1,5 +1,6 @@
----
+title: Configuring OpenStack Cinder with Kubernetes | OpenMetal
 slug: /kubernetes-guides/configuring-openstack-cinder-with-kubernetes
+description: Learn how to use OpenStack Cinder as a block storage service and create persistent volumes backed by Cinder block storage.
 ---
 
 # Configuring OpenStack Cinder with Kubernetes
